@@ -1,0 +1,48 @@
+:root {
+  --hyper: white
+}
+
+/* Header */
+header {
+    padding: 10px 5%;
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+}
+
+h1 { 
+    font-family: fantasy;
+    color: tomato;
+    display: inline-block;
+    margin-left: 10px;
+
+}
+
+nav {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+    color: var(--hyper);
+   
+}
+   
+
+nav li {
+    display: inline-block;
+    margin-left: 5px;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited
+{
+    color: var(--hyper);
+    text-decoration: none;
+}
+
+
+
+
+
