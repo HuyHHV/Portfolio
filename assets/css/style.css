@@ -26,7 +26,7 @@ nav {
 }
    
 
-nav li {
+li {
     display: inline-block;
     margin-left: 5px;
     
@@ -45,4 +45,44 @@ a:visited
 
 
 
+main {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
 
+.card-header {
+    float: left;
+    margin-left: 2rem;
+    width: 15%;
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+    border-left-style: solid;
+    padding-left: 2rem;
+    }
+
+
+img {
+    max-height: 10rem;
+    width: 100%;
+}
+
+.card {
+    width: 33.333%;
+}
+#git-init {
+    width: 100%;
+   
+}
+
+#contact article {
+    justify-content: center;
+}
+#contact-infor {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
