@@ -26,7 +26,7 @@ h1 {
     text-shadow: -1px -1px rgba(19, 14, 13, 0.65);
       ;
 }
-/* nav bar stylings */
+
 nav {
     float:right;
     padding-top: 0.75em;
@@ -39,35 +39,11 @@ nav {
    }
    
 
-.navEffect {
+nav li {
     display: inline-block;
     padding: 0px 20px;
  
 }
-
-.navEffect:hover {
-    transition: all .3s ease-in-out;
-  }
-  
-.navEffect::after {
-      content: '';
-      display: block;
-      width: 0;
-      position:absolute;
-      left:50%;
-      height: 2px;
-      background: var(--card_header);
-      transition: cubic-bezier(.77,0,.18,1) 1s;
-  }
-  
-.navEffect:hover::after {
-      width: 80%;
-      left: 10%;
-  }
-  
-.navEffect {
-    transition: cubic-bezier(.77,0,.18,1) 1s;
-  }
   
 
 a {
@@ -87,8 +63,8 @@ div {
     padding-bottom: 6em;
 }
 
+/* main */
 main {
-    
     display: flex;
     flex-direction: column;
 }
@@ -102,8 +78,6 @@ h2 {
     width: 30%;
     border-radius: 50%;
 }
-
-/* main */
 
 h3 {
     font-size: 2rem;
@@ -164,4 +138,35 @@ h4 {
     width: 100%;
     font-size: 1.3rem;
     font-weight: bolder;
+}
+
+@media screen and (max-width: 900px) {
+    nav, h1{
+        float: none;
+        text-align: center;
+        display: table;
+        margin: auto;
+        padding-left: 0vh;
+       }
+    div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-bottom: 2em;
+    }
+    h2 {
+        width: 100%;
+        font-size: 3rem};
+}
+@media screen and (max-width: 900px) {
+    .card-header {
+        float:none;
+        width: 100%;
+    }
+    .card {
+        width: 100%;
+    }
+    #contact-infor {
+        display: block;
+    }
 }
