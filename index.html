@@ -7,41 +7,43 @@
     <title>My portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;700;900&display=swap" rel="stylesheet"> 
     <script src="https://kit.fontawesome.com/8a3045ba90.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 <body>
-    <header>
-       <nav class="float-right">
-           <a href="#about-me">About me</a>
-           <a href="#work">Work</a></li>
-           <a href="#contact">Contact</a>
-           <a href="./assets/CV.docx">Resume</a>
-        </nav>
-    </header>
+    <nav>
+        <label class="logo">HuyV</label>
+        <div class="hamburger">
+            <div class="hamburger_btn"></div>
+        </div>
+        <ul class="nav-panel">
+            <li class="nav-button"><a href="#about-me">About me</a></li>
+            <li class="nav-button"><a href="#work">Work</a></li></li>
+            <li class="nav-button"><a href="#contact">Contact</a></li>
+            <li class="nav-button"><a href="./assets/CV.docx">Contact</a></li>
+        </ul>
+
+    </nav>
+ 
     
     <div class="hero">
-        <div class="herowrapper">
-            <h2>Hello! I'm Huy</h2>
-            <p>I'm a pasionate full-stack developer.Welcome to my portfolio page.</p>
-            <a href="#about-me">Learn more...</a></li>
-        </div>
-        <div id="avawrapper"> 
-            <img id="avarta" src="./assets/images/personalphoto.jpg" alt="persnal photo"> 
+        <div class="hero">
+            <div class=" greeting">
+                <p class="typing_animation">
+                    Hello! I'm Huy 
+                    <br>
+                    I'm a pasionate full-stack developer based in Adelaide. I'm eager to apply time management and organizational skills in various environments. Seeking entry-level opportunities to expand skills while facilitating company growth.
+                </p>
+                <a  class="typing_animation" href="#about-me">Learn more...</a></li>
+            </div>
+            <div class="avawrapper "> 
+                <img id="avarta" src="./assets/images/personalphoto.jpg" alt="persnal photo"> 
+            </div>
         </div>
     </div>
 
-
-    <main>
-        <section id="about-me" class="contain_padding">
-            <h3 class="card-header">About me</h2>
-            <article>
-                <p id="paragraph1"> Organized and motivated engineer eager to apply time management and organizational skills in various environments. Seeking entry-level opportunities to expand skills while facilitating company growth.
-                </p>
-            </article>
-            
-        </section>
-        
+<!-- 
+    <main>  
         <section id="work" class="contain_padding">
             <h3 class="card-header">Work</h2>
 
@@ -76,7 +78,6 @@
                     <img src="./assets/images/planner.webp" alt="black board"> 
                     <h4>Work Day Scheduler</h4>
                     </a>
-                   
                </section>
 
             </article>
@@ -95,8 +96,8 @@
                
             </section>   
         </footer>
-       
-    </main>
-    
+        -->
+    <!-- </main> -->
+    <script src="./assets/js/app.js"></script>
 </body>
 </html>
