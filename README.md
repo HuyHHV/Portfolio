@@ -6,15 +6,6 @@ This website is my portfolio which is to showcase my skills and talents to emplo
 
 
 
-Desktop version 
-
-![Refactored code](./assets/images/Desktop.png)
-
-
-Mobile version
-
-![Responsive design](./assets/images/Mobile.png)
-
 ## URLs 
 
 GitHub repository: https://github.com/HuyHHV/Portfolio

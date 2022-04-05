@@ -11,93 +11,109 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 <body>
-    <nav>
-        <label class="logo">HuyV</label>
-        <div class="hamburger">
-            <div class="hamburger_btn"></div>
-        </div>
-        <ul class="nav-panel">
-            <li class="nav-button"><a href="#about-me">About me</a></li>
-            <li class="nav-button"><a href="#work">Work</a></li></li>
-            <li class="nav-button"><a href="#contact">Contact</a></li>
-            <li class="nav-button"><a href="./assets/CV.docx">Contact</a></li>
-        </ul>
-
-    </nav>
- 
-    
-    <div class="hero">
-        <div class="hero">
-            <div class=" greeting">
-                <p class="typing_animation">
-                    Hello! I'm Huy 
-                    <br>
-                    I'm a pasionate full-stack developer based in Adelaide. I'm eager to apply time management and organizational skills in various environments. Seeking entry-level opportunities to expand skills while facilitating company growth.
-                </p>
-                <a  class="typing_animation" href="#about-me">Learn more...</a></li>
+    <div class="header-wrapper">
+        <nav>
+            <label class="logo">HuyV</label>
+            <div class="hamburger">
+                <div class="hamburger_btn"></div>
             </div>
-            <div class="avawrapper "> 
-                <img id="avarta" src="./assets/images/personalphoto.jpg" alt="persnal photo"> 
+            <ul class="nav-panel">
+                <li class="nav-button"><a href="#about-me">About me</a></li>
+                <li class="nav-button"><a href="#work">Work</a></li></li>
+                <li class="nav-button"><a href="#contact">Contact</a></li>
+                <li class="nav-button"><a href="./assets/CV.docx">Contact</a></li>
+            </ul>
+    
+        </nav>
+     
+        <div class="hero">
+            <div class="margin-top"></div>
+            <div class="hero-body">
+                <div class=" greeting">
+                    <p class="typing_animation">
+                        Hello! I'm Huy 
+                        <br>
+                        I'm a pasionate full-stack developer based in Adelaide. I'm eager to apply time management and organizational skills in various environments. Seeking entry-level opportunities to expand skills while facilitating company growth.
+                    </p>
+                    <a  class="typing_animation" href="#about-me">Learn more...</a></li>
+                </div>
+                <div class="avawrapper "> 
+                    <img id="avatar" src="./assets/images/personalphoto_ccexpress.png" alt="persnal photo"> 
+                </div>
             </div>
         </div>
     </div>
+   
 
-<!-- 
+
+
     <main>  
-        <section id="work" class="contain_padding">
+        <section class="work">
+
             <h3 class="card-header">Work</h2>
 
-            <article>
+            <article class="card-wrapper">
 
-                <section class="card row" id="firstRow">
+                <section class="card">
                     <a href="https://lconnell1000.github.io/Project-1/">
-                        <img src="./assets/images/cocktail.webp" alt="Cocktail">
-                        <h4>Cocktail Bar Stocktake</h4>
-                    </a>   
-                  
+                        <img src="./assets/images/cocktail.png" alt="Cocktail">  
+                    </a>
+                    <div class="app-title-wrapper">
+                        <p class="app-title">Cocktail Bar Stocktake</h4>
+                        
+                    </div>   
+                   
+                </section>  
+
+                <section class="card">
+                    <a href="https://guru-heroku-deploy.herokuapp.com/">
+                        <img src="./assets/images/dashboard.png" alt="guru">  
+                    </a>
+                    <div class="app-title-wrapper">
+                        <p class="app-title">GURU- Project management app</h4>
+                        
+                    </div>   
+                   
                 </section>   
 
-                <section class="card row" id="prework">
+                <section class="card">
+                    <a href="https://cryptic-plateau-77919.herokuapp.com/">
+                        <img src="./assets/images/Tech_blog.png" alt="Cocktail">  
+                    </a>
+                    <div class="app-title-wrapper">
+                        <p class="app-title">Tech Blog</h4>
+                        
+                    </div>   
+                   
+                </section>   
+
+                <section class="card">
                     <a href="https://huyhhv.github.io/Weather_Dashboard/">
-                    <img src="./assets/images/weather.webp" alt="cloud">
-                    <h4>Weather Dashboard</h4>
+                        <img src="./assets/images/WeatherDashboard.png" alt="Weather">  
                     </a>
+                    <div class="app-title-wrapper">
+                        <p class="app-title">Weather dashboard</h4>
+                        
+                    </div>   
                    
-                </section>
-
-                <section class="card row">
-                    <a href="https://github.com/HuyHHV/Password-Generator-">
-                    <img src="./assets/images/password.webp" alt="password" >
-                    <h4>Password Generator</h4>
-                    </a>
-                   
-                </section>
-
-                <section class="card row">
-                    <a href="https://huyhhv.github.io/Work_Day_Scheduler/">
-                    <img src="./assets/images/planner.webp" alt="black board"> 
-                    <h4>Work Day Scheduler</h4>
-                    </a>
-               </section>
-
-            </article>
+                </section>   
         </section>
 
-        <footer>
-            <section id="contact" class="contain_padding">
-                <h3 class="card-header">Contact</h2>
-               
-                <ul id="contact-infor">
+   
+        <section class="contact" class="contain_padding">
+            <h3 class="card-header">Contact</h2>
+            <div class="contact-wrapper">
+                <ul class="contact-infor">
                     <li> vohuy819@gmail.com </li>
                     <li> 0452 190 559</li>
                     <li> <a href="https://github.com/HuyHHV"><i class="fab fa-github"></i></i> Github</a></li>
                     <li> <a href="https://www.linkedin.com/in/huy-vo-a5b638118/"><i class="fab fa-linkedin"></i> Linkedin</a></li>
                 </ul>
-               
-            </section>   
-        </footer>
-        -->
-    <!-- </main> -->
+            </div>
+        </section>   
+      
+       
+    </main>
     <script src="./assets/js/app.js"></script>
 </body>
 </html>
